@@ -1,0 +1,35 @@
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+nav {
+  background-color: #333;
+  padding: 15px 15px 15px 15px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  text-decoration: none;
+  display: flex;
+}
+nav button{
+  padding-left: 15;
+  display: flex;
+}
+nav button :hover{
+    background: #03d3fc;
+  
+}
+nav :hover{
+  background: #03d3fc;
+}
+nav h1 {
+  margin-right: auto;
+}
+nav a {
+  color: white;
+  padding: 4px 10px;
+}
+nav a.active {
+  color: white;
+  background: #03d3fc;
+  text-decoration: none;
+}
